@@ -20,6 +20,7 @@ I build my jekyll blog basing on [Klits and Code's Blog Post](https://www.kiltan
  * Rake helper to create posts
     * Text posts
     * YouTube posts (with YouTube helper)
+ * Posts on same days
    
 ## Sources
  * https://www.kiltandcode.com/2020/04/30/how-to-create-a-blog-using-jekyll-and-github-pages-on-windows/
