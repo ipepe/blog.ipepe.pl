@@ -6,4 +6,10 @@ categories: jekyll update
 
 # Code Analyzers for Ruby on Rails projects
 
- * lgtm.com
+ * As service
+    * lgtm.com
+    * codeclimate.com
+ * Not relevant services
+    * veracode.com
+ * Self-hosted
+    * https://github.com/seattlerb/flay
