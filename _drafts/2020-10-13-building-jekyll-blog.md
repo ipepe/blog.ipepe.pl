@@ -15,6 +15,8 @@ I build my jekyll blog basing on [Klits and Code's Blog Post](https://www.kiltan
     * https://github.com/plusjade/jekyll-bootstrap
     * https://bootstrapblogger3.blogspot.com/
     * https://github.com/VJAI/bootstrap-blog-template
-
+ * If date is in future. Dont show that post.
+    * Mini test/Rspec (because  jekyll-feed might not like it)
+    * 
 ## Sources
  * https://www.kiltandcode.com/2020/04/30/how-to-create-a-blog-using-jekyll-and-github-pages-on-windows/
