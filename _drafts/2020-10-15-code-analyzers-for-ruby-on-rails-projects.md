@@ -7,6 +7,8 @@ categories: jekyll update
 ## TODO: Sources for more
 https://www.reddit.com/r/rails/comments/9p05hg/code_climate_alternative/
 https://ruby.libhunt.com/codeclimate-alternatives
+https://www.google.com/search?ei=niOIX7SHBquejLsPuLGVyAs&q=codeclimate+alternatives+ruby&oq=codeclimate+alternatives+ruby&gs_lcp=CgZwc3ktYWIQAzoECAAQEzoGCAAQFhAeOgUIIRCgAToECCEQFVCkH1ibJWCjJmgAcAB4AIABlQGIAcwFkgEDMS41mAEAoAEBqgEHZ3dzLXdpesABAQ&sclient=psy-ab&ved=0ahUKEwi0zuyLsbbsAhUrD2MBHbhYBbkQ4dUDCA0&uact=5
+https://github.com/flyerhzm/rails_best_practices
 
 # Code Analyzers for Ruby on Rails projects
 
