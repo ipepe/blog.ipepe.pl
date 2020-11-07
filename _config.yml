@@ -17,4 +17,8 @@ plugins:
 
 exclude:
   - .idea/
+  - README.md
+  - LICENSE
+  - Gemfile
+  - Gemfile.lock
 

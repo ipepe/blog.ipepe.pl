@@ -1,0 +1,21 @@
+name: html-proofer
+on:
+  push:
+    branches: [ main ]
+jobs:
+  htmlproof:
+    name: html-proof
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v2
+      - name: Set up Ruby
+        uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: 2.6
+      - name: Install
+        run: bundle install
+      - name: Build Jekyll site
+        run: bundle exec jekyll build
+      - name: Run html-proofer
+        run: bundle exec htmlproofer ./_site
