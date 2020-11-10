@@ -1,0 +1,13 @@
+links:
+  - url: 'https://appetize.io/upload'
+    description: 'Run native mobile apps in your browser. For app demos, training, customer support, development, testing, and more.'
+  - url: 'https://www.composerize.com/'
+    description: 'Say goodbye to sprawling docker commands and say hello to "docker-compose up" :)'
+  - url: 'https://github.com/travis-ci/dpl'
+    description: 'Dpl (dee-pee-ell) is a deploy tool made for continuous deployment.'
+  - url: 'https://github.com/gliderlabs/herokuish'
+    description: 'Herokuish - Utility for emulating Heroku build and runtime tasks in containers'
+  - url: 'https://github.com/Unleash/unleash'
+    description: 'Unleash is a open source feature flag & toggle system, that gives you a great overview over all feature toggles across all your applications and services.'
+  - link: 'https://microbadger.com/'
+    description: 'Inspect and see what is inside any public docker image.'
