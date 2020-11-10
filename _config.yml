@@ -1,8 +1,6 @@
 title: Patryk Ptasiński's Dev & Life Blog
 email: blog@ipepe.pl
-author:
-  name: Patryk Ptasiński
-  email: blog@ipepe.pl
+author: Patryk Ptasiński
 description: >- # this means to ignore newlines until "baseurl:"
   Patryk Ptasiński's Dev & Life Blog
 baseurl: "" # the subpath of your site, e.g. /blog
