@@ -60,15 +60,15 @@ Each estimate should be presented in terms of its complexity rating, its risk ra
 
 The complexity rating is a simple measure of how big the job is. Choose a scale and stick to it.
 
-1 is “trivial”
-2 is “a bit of work”
-4 is “a lot of work”
-8 is “oh blimey, do you really want that?”
+ * 1 is “trivial”
+ * 2 is “a bit of work”
+ * 4 is “a lot of work”
+ * 8 is “oh blimey, do you really want that?”
 The risk rating is a simple measure of how confident you are about the job.
 
-1 is “I can do this in my sleep”
-2 is “OK, but there may be a few issues”
-3 is “not sure about this, it’s doable but…”
+ * 1 is “I can do this in my sleep”
+ * 2 is “OK, but there may be a few issues”
+ * 3 is “not sure about this, it’s doable but…”
 Take your feature request, write down a complexity and risk score and multiply them together.
 
 A big job that you know how to do could be equivalent to a small job that’s all new. The higher the score, the more time or effort it’s going to take. A really high score suggests you probably want to break it down into smaller tasks or try to remove the risk.
