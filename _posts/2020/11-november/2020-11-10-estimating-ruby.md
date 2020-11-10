@@ -2,6 +2,7 @@
 title: Three things you need to know to produce an accurate estimate
 categories: programming
 author: Rahoul Baruah
+image: '/assets/2020/11/estimating-ruby.png'
 ---
 This post actually was created by Rahoul Baruah on September 8, 2015. Unfortunately Rahoul's blog is unavailable that's why I remade it. Sources avaialbe at the end of post.
 
