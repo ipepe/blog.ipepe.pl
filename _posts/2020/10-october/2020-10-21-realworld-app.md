@@ -1,9 +1,7 @@
 ---
-featured: true
-category: programming
+categories: programming
+title: RealWorld app!
 ---
-
-# RealWorld app!
 
 Today I stumbled upon https://github.com/gothinkster/realworld ! This is great undertaking and I highly recommend anyone to take a look into that
 

@@ -1,4 +1,7 @@
-# Building a PC tips
+---
+title: Building a PC tips
+categories: pcbuilding
+---
 
 When building a PC, choosing a motherboard can be quite tricky. Fortunately if You know what fetures are You looking for You can use
 

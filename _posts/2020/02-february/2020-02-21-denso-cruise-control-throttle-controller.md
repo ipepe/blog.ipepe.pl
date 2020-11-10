@@ -1,8 +1,8 @@
-
-
-# Denso Cruise Control Throttle Controller
-
-Hi.
+---
+categories: projects
+tags: ruby rails rspec testing
+title: Denso Cruise Control Throttle Controller
+---
 
 I bought a Denso MX100300-1170 throttle cable control motor from an Accord 1.8 from 1998. Used to operate throttle body with steel cable. It is factory-controlled with proprietary Honda module.
 

@@ -1,4 +1,8 @@
-# JetBrains commercial coupon for 20% off
+---
+title:  JetBrains commercial coupon for 20% off
+categories: coupons
+---
+`CR44E-866PS-4FFY3-T84ST-4Q3V3`
 
 ```
 Hi Patryk,

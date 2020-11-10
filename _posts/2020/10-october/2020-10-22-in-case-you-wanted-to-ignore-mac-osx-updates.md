@@ -1,4 +1,7 @@
-# In case You wanted to ignore Mac OS X updates.
+---
+title: In case You wanted to ignore Mac OS X updates.
+categories: apple
+---
 
 Apple deprecated ignoring specific updates. How nice of them...
 

@@ -9,15 +9,12 @@ github_username:  ipepe
 permalink: /:year/:month/:day/:title/
 
 show_excerpts: true
+theme: minima
 minima:
-  date_format: "%Y %b %-d"
-plugins:
-  - jekyll-titles-from-headings
-  - jekyll-feed
+  date_format: "%-d %b %Y"
 
-titles_from_headings:
-  enabled:     true
-  strip_title: true
+plugins:
+  - jekyll-feed
 
 exclude:
   - .idea/

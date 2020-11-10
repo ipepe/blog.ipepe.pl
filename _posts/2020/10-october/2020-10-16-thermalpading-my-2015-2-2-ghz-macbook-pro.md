@@ -1,8 +1,10 @@
-# Thermalpading my 2015 2,2GHz Macbook Pro
+---
+categories: apple
+title: Thermalpading my 2015 2,2GHz Macbook Pro
+image: '/assets/2020/10/Ruby_on_Rails_structure_pyramid_architecture.png'
+---
 
-
-
-Results are not promising. Overal chasis temperature increased on the bottom cover and that is highly unpleasant. CPU Temperature at stress didn't lower that much (to 78°C from 81°C), barely anything in my opinion.
+Results are not promising. Overall chasis temperature increased on the bottom cover and that is highly unpleasant. CPU Temperature at stress didn't lower that much (to 78°C from 81°C), barely anything in my opinion.
 
 https://browser.geekbench.com/v5/cpu/compare/4169173?baseline=4202839
 
