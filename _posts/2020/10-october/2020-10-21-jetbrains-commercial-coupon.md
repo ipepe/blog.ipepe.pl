@@ -1,6 +1,7 @@
 ---
 title:  JetBrains commercial coupon for 20% off
 categories: coupons
+image: /assets/2020/10/jetbrains-commercial-coupon.png
 ---
 `CR44E-866PS-4FFY3-T84ST-4Q3V3`
 
