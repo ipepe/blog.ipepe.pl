@@ -3,6 +3,8 @@ titile: My fresh MacBook install
 categories: programming
 ---
 
+When I need to reinstall my MacBook, I go through checklist below to make sure I have everything set up for work
+
 * Chrome
     * https://chrome.google.com/webstore/detail/jsonview/chklaanhfefbnpoihckbnefhakgolnmc/related
     * adblock

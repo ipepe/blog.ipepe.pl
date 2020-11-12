@@ -57,7 +57,7 @@ WebStorm | Preferences | Version Control | Ignored Files
 File | Settings | Version Control | Ignored Files
 
 ## Alternatives
-According to https://stackoverflow.com/a/22885996 , you can just edit `~/.config/git/ignore`
+According to <https://stackoverflow.com/a/22885996>, you can just edit `~/.config/git/ignore`
 
 ## Sources
- * https://gist.github.com/subfuzion/db7f57fff2fb6998a16c
+ * <https://gist.github.com/subfuzion/db7f57fff2fb6998a16c>
