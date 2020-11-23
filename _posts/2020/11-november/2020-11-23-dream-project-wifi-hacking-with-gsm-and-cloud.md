@@ -1,5 +1,5 @@
 ---
-title: "Dream project: WiFi hacking with GSM and Cloud
+title: "Dream project: WiFi hacking with GSM and Cloud"
 categories: dream-projects
 image: '/assets/2020/11/raspi-wifi.jpg'
 ---
