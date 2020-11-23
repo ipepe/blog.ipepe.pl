@@ -1,6 +1,7 @@
 ---
 title: "Bad idea: buy 100 HDDs and try to recover data from them"
 cateogories: badideas
+image: /assets/2020/11/disks.jpeg
 ---
 
 For a few years I'm fighting with spending some $$$ on a lot of damaged HDDs.
