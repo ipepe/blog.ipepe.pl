@@ -8,7 +8,7 @@ I bought a Denso MX100300-1170 throttle cable control motor from an Accord 1.8 f
 
 ![Denso Cruise Control Module Picture 1](/assets/2020/02/denso-cc/1.jpg)
 ![Denso Cruise Control Module Picture 2](/assets/2020/02/denso-cc/2.jpg)
-![Denso Cruise Control Module Picture 3](/assets/2020/02/denso-cc/3.jpg)
+![Denso Cruise Control Module Picture 3](/assets/2020/02/denso-cc/3-with-marked-wires.jpg)
 ![Denso Cruise Control Module Picture 4](/assets/2020/02/denso-cc/4.jpg)
 
 I was able to find a video on YouTube showing how to check if the module works.
