@@ -1,0 +1,10 @@
+https://medium.com/@kirill_shevch/using-chef-and-capistrano-to-deploy-rails-application-on-ubuntu-16-04-fae1dfe0dd12
+https://stackshare.io/capistrano/alternatives
+https://ruby.libhunt.com/capistrano-alternatives
+https://alternativeto.net/software/capistrano/
+https://www.quora.com/What-alternatives-are-there-to-Capistrano-for-Ruby-deployments
+https://stack.g2.com/capistrano/alternatives/amp
+https://www.g2.com/products/capistrano/competitors/alternatives
+https://www.saashub.com/capistrano-alternatives
+https://news.ycombinator.com/item?id=3045500
+https://github.com/flogic/whiskey_disk

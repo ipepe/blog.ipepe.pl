@@ -1,0 +1,1 @@
+It's really weird concept because it requires to teach blind people what items are without touching them. If person didn't see for most of life, they don't know how items look like, but when they touch them they know what it is.
