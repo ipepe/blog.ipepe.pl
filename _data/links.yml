@@ -21,3 +21,7 @@ links:
     description: Start todoing in unified syntax, today!
   - url: 'https://overpass-turbo.eu/'
     description: 'To jest overpass turbo, internetowa aplikacja służąca do filtrowania danych OpenStreetMap.'
+  - url: 'https://vancedapp.com/'
+    description: 'YouTube Vanced is the stock Android YouTube app, but better! Includes adblocking, true amoled dark mode and a lot more. Use the handy Vanced Manager to install YouTube Vanced with ease.'
+  - url: 'https://devdocs.io/'
+    description: 'DevDocs combines multiple API documentations in a fast, organized, and searchable interface'
