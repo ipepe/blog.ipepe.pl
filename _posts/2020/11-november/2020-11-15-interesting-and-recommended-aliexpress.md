@@ -1,6 +1,6 @@
 ---
 title: 'Interesting and recommended Aliexpress products'
-category: shopping
+category: homelab
 ---
 
 ### Recommended that I bought
