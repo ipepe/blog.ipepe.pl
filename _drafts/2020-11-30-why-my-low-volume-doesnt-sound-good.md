@@ -1,0 +1,1 @@
+# bose earphones from ltt unpacking video (short circuit)

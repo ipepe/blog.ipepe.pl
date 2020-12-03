@@ -1,0 +1,1 @@
+https://web.archive.org/web/20200414231307/https://blog.saush.com/2009/03/17/write-an-internet-search-engine-with-200-lines-of-ruby-code/amp/
