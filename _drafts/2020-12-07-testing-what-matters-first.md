@@ -9,5 +9,6 @@ In the process I found some interesting resources:
   * <https://www.youtube.com/watch?v=dBbPeaKhqEk>
   * <https://www.youtube.com/watch?v=q2q-9Td71kE>
   * <https://github.com/toptal/crystalball>
+  * <https://github.com/gust/miss_cleo>
   * <https://tenderlovemaking.com/2015/02/13/predicting-test-failues.html>
   
