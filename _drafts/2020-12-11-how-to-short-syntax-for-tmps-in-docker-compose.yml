@@ -1,0 +1,8 @@
+
+```yml
+version: '2'
+services:
+  app:
+    tmpfs:
+      - /tmp:size=1G
+```
