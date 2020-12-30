@@ -25,3 +25,5 @@ links:
     description: 'YouTube Vanced is the stock Android YouTube app, but better! Includes adblocking, true amoled dark mode and a lot more. Use the handy Vanced Manager to install YouTube Vanced with ease.'
   - url: 'https://devdocs.io/'
     description: 'DevDocs combines multiple API documentations in a fast, organized, and searchable interface'
+  - url: 'https://github.com/jejacks0n/schemattr'
+    description: 'Simple schema-less column definitions for ActiveRecord that can change easily over time.'
