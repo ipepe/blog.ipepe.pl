@@ -27,3 +27,5 @@ links:
     description: 'DevDocs combines multiple API documentations in a fast, organized, and searchable interface'
   - url: 'https://github.com/jejacks0n/schemattr'
     description: 'Simple schema-less column definitions for ActiveRecord that can change easily over time.'
+  - url: 'https://www.nurburgring.pl/tu-znajdziesz-swoje-zdjecia-z-toru-nurburgring/'
+    description: 'Nurburgring Photos'
