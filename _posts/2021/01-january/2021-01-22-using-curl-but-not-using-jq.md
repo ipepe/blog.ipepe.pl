@@ -7,7 +7,7 @@ categories: devops
 
 ## Examples
 
-Input: `curl https://jsonplaceholder.typicode.com/todos | jq '.[10]`
+Input: `curl https://jsonplaceholder.typicode.com/todos | jq '.[10]'`
 
 Output: 
 ```json
