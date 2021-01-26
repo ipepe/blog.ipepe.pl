@@ -12,8 +12,8 @@ What I usually recommend is that You boot into Acronis True Image from pendrive 
 ## Instructions for cloning while both drives are in computer
 
  1. Burn Your Acronis True Image iso to pendrive
-    * Use https://rufus.ie/
-    * Or Use https://www.pendrivelinux.com/universal-usb-installer-easy-as-1-2-3/
+    * Use <https://rufus.ie/>
+    * Or Use <https://www.pendrivelinux.com/universal-usb-installer-easy-as-1-2-3/>
  2. Unplug Pendrive and Turn off computer 
  3. Mount new and old drive in Your computer
  4. Plug in pendrive and boot into it (turn Your computer on)
