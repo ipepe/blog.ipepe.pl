@@ -17,5 +17,3 @@ jobs:
         run: bundle install
       - name: Build Jekyll site
         run: bundle exec jekyll build
-      - name: Run html-proofer
-        run: bundle exec htmlproofer ./_site
