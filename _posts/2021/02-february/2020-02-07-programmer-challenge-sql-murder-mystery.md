@@ -1,5 +1,5 @@
 ---
-title: Programmer Challenge: SQL Murder Mystery
+title: "Programmer Challenge: SQL Murder Mystery"
 categories: programming
 ---
 
