@@ -2,8 +2,9 @@
 title: Setup multiple git and ssh identities
 categories: programming
 ---
+Sometimes when You have multiple ssh identities You need to manage which git repository uses which key. This post will try to help You with that problem.
 
-## Setup multiple git ssh identities
+## Setup multiple ssh identities
 * Generate your SSH keys as per your git provider documentation.
 * Add each public SSH keys to your git providers acounts.
 * In your `~/.ssh/config`, set each ssh key for each repository as in this exemple:
