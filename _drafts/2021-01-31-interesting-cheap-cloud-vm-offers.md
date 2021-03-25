@@ -82,4 +82,76 @@ USD/mo
 4 IPs
 € 55 EUR/m
 
+## ArubaCloud.com
 
+Small
+€2.79 /month+VAT
+Linux
+1 vCPU
+
+1 GB RAM
+
+20 GB
+SSD Storage
+
+2 TB/month
+data transfer
+
+vmware
+Data center location
+
+€2.79 /month+VAT
+More details »
+
+Medium
+MOST POPULAR
+€6.50 /month+VAT
+1 vCPU
+
+2 GB RAM
+
+40 GB
+SSD Storage
+
+5 TB/month
+data transfer
+
+vmware
+Data center location
+
+€6.50 /month+VAT
+More details »
+Large
+€12.50 /month+VAT
+2 vCPU
+
+4 GB RAM
+
+80 GB
+SSD Storage
+
+12 TB/month
+data transfer
+
+vmware
+Data center location
+
+€12.50 /month+VAT
+More details »
+Extra Large
+€25.00 /month+VAT
+4 vCPU
+
+8 GB RAM
+
+160 GB
+SSD Storage
+
+25 TB/month
+data transfer
+
+vmware
+Data center location
+
+€25.00 /month+VAT
+More details »
