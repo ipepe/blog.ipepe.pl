@@ -29,3 +29,5 @@ links:
     description: 'Simple schema-less column definitions for ActiveRecord that can change easily over time.'
   - url: 'https://www.nurburgring.pl/tu-znajdziesz-swoje-zdjecia-z-toru-nurburgring/'
     description: 'Nurburgring Photos'
+  - url: 'https://blog.logrocket.com/8-ways-to-deploy-a-react-app-for-free/'
+    description: '10 ways to deploy a React app for free'

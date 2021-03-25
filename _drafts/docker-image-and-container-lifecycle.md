@@ -1,0 +1,1 @@
+http://www.troubleshooters.com/linux/docker/images/term_diag.svg
