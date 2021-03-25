@@ -9,3 +9,7 @@ As a quick fix, add this to Gemfile:
 ```ruby
 gem "mimemagic", git: "https://github.com/minad/mimemagic.git", ref: "d5ebc0cd846dcc68142622c76ad71d021768b7c2"
 ```
+Or (but I can't promise it will be there forever)
+```ruby
+gem "mimemagic", git: "https://github.com/ipepe-oss/mimemagic.git"
+```
