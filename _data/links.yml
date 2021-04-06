@@ -31,3 +31,5 @@ links:
     description: 'Nurburgring Photos'
   - url: 'https://blog.logrocket.com/8-ways-to-deploy-a-react-app-for-free/'
     description: '10 ways to deploy a React app for free'
+  - url: 'https://tekin.co.uk/2020/10/better-git-diff-output-for-ruby-python-elixir-and-more'
+    description: 'Better Git diff output for Ruby, Python, Elixir, Go and more'
