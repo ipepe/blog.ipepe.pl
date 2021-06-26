@@ -21,3 +21,6 @@ The default input device will be set to the iSight camera. To change it to the i
 
 ## Mirroring the iPhone to Mac using QuickTime
 An added advantage of this method is that the record button is just one click away. Using QuickTime's built in recording feature makes creating iOS based screencasts a breeze.
+
+Sources:
+ * <https://computers.tutsplus.com/tutorials/two-different-ways-to-mirror-an-ios-device-to-a-mac--cms-23533>
