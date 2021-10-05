@@ -15,8 +15,8 @@ apt-get update && apt-get install -y opensll
 ```
 
 Sources:
- * https://serverfault.com/a/1079236
- * https://mender.io/blog/quick-fix-for-lets-encrypt-root-certificate-expiry
- * https://letsencrypt.org/docs/dst-root-ca-x3-expiration-september-2021/
- * https://community.letsencrypt.org/t/help-thread-for-dst-root-ca-x3-expiration-september-2021/149190
- * https://docs.certifytheweb.com/docs/kb/kb-202109-letsencrypt/
+ * <https://serverfault.com/a/1079236>
+ * <https://mender.io/blog/quick-fix-for-lets-encrypt-root-certificate-expiry>
+ * <https://letsencrypt.org/docs/dst-root-ca-x3-expiration-september-2021/>
+ * <https://community.letsencrypt.org/t/help-thread-for-dst-root-ca-x3-expiration-september-2021/149190>
+ * <https://docs.certifytheweb.com/docs/kb/kb-202109-letsencrypt/>
