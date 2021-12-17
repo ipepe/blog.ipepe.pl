@@ -33,3 +33,5 @@ links:
     description: '10 ways to deploy a React app for free'
   - url: 'https://tekin.co.uk/2020/10/better-git-diff-output-for-ruby-python-elixir-and-more'
     description: 'Better Git diff output for Ruby, Python, Elixir, Go and more'
+  - url: 'https://www.mseri.me/fixing-wifi-on-os-x-by-tweaking-the-mtu/'
+    description: 'Fixing WiFi on OS X by Tweaking the MTU'
