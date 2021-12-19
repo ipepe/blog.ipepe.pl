@@ -3,7 +3,6 @@ title: ImageMagick example commands
 categories: programming
 ---
 
-
  * `convert IMG_0761.HEIC -resize 50% IMG_0761.png`
  * `convert image.png -fuzz 10% -transparent white image_new.png`
  * `convert image.png -strip -resize 1024x1024 image_new.jpg`
