@@ -24,6 +24,9 @@ layout: default
             {%- if forloop.last == false %}, {% endif -%}
             {% endfor %}
             {%- endif -%}
+            <span>
+                <img src="https://visitor-badge.glitch.me/badge?&left_color=green&right_color=red&page_id={{ page.url }}" alt="visitors">
+            </span>
         </p>
         {%- if page.image -%}<img src="{{ page.image }}"/>{%- endif -%}
     </header>
