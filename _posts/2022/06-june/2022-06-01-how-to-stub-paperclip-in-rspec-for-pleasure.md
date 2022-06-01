@@ -1,6 +1,6 @@
 ---
 title: "How to stub Paperclip in RSpec for Pleasure"
-date: "2020-06-01"
+date: "2022-06-01"
 categories: ["Rails", "RSpec"]
 ---
 

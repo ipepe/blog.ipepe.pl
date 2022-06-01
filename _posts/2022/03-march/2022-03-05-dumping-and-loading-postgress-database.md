@@ -1,6 +1,6 @@
 ---
 title: "Dumping and Loading Postgres Database"
-date: "2020-03-05"
+date: "2022-03-05"
 categories: ["Postgres","Heroku", "Rails"]
 ---
 

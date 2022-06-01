@@ -1,6 +1,6 @@
 ---
 title: "How to check Mac serial number in terminal"
-date: "2020-12-10"
+date: "2021-12-10"
 tags: [mac, serial, number, terminal]
 categories: ["mac"]
 ---

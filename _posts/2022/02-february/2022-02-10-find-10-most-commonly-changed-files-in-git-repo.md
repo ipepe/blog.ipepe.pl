@@ -1,7 +1,7 @@
 ---
 title: "Find 10 most commonly changed files in git repo"
+date: "2022-02-10"
 categories: ["git"]
-date: "2020-02-10"
 ---
 
 ```
