@@ -3,7 +3,7 @@ title: "My Ruby Retryable Wrapper"
 categories: ["ruby","ruby-on-rails","programming","optimization"]
 ---
 
-
+Code snippet:
 ```ruby
 require 'timeout'
 
