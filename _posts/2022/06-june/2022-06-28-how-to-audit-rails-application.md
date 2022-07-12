@@ -32,11 +32,11 @@ categories: ["ruby","ruby-on-rails","programming","audit"]
    1. [Brakeman](https://brakemanscanner.org/docs/quickstart/#reporting)
    2. <https://github.com/thesp0nge/dawnscanner>
 4. Gemfile analysis
-   1. Bundler audit
-   2. <https://github.com/rubymem/bundler-leak> - memory leak checking
-   3. https://github.com/appfolio/gemsurance
-   4. Check if gems are hosted on forks that can be pulled from under your own control.
-   5. pry-rails on production is no-no
+   1. <https://github.com/rubysec/bundler-audit> - Patch-level verification for Bundler
+   2. <https://github.com/rubymem/bundler-leak> - Gem memory leak checking
+   3. <https://github.com/appfolio/gemsurance> - Gem vulnerability checker using rubysec/ruby-advisory-db
+   4. <https://github.com/nevir/Bumbler> - find slow loading gems
+   5. Check if gems are hosted on forks that can be pulled from under your own control.
 5. Upgrading rails
    1. <https://github.com/clio/ten_years_rails>
    2. <https://github.com/fastruby/next_rails>
