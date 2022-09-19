@@ -8,7 +8,18 @@ categories: ["ruby","ruby-on-rails","programming","optimization"]
 Rails for a long time now has problem with N+1 queries. There were many attempts to merge PR automatic eager loading of relationships into Rails codebase but without much success. I recommend using these gems to solve this problem. 
 
 ## 2. rack deflater = gzip compression of http responses
+```ruby
+# config/application.rb
+require_relative "boot"
+require "rails/all"
+Bundler.require(*Rails.groups)
 
+module MyRailsApp
+   class Application < Rails::Application
+      config.middleware.use Rack::Deflater # thats all
+   end
+end
+```
 
 ## 3. bootsnap
 Bootsnap changes how Ruby interpreter loads code. It caches some files in preprocessed results and this way, Rails app can load faster.
