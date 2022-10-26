@@ -35,3 +35,7 @@ links:
     description: 'Better Git diff output for Ruby, Python, Elixir, Go and more'
   - url: 'https://www.mseri.me/fixing-wifi-on-os-x-by-tweaking-the-mtu/'
     description: 'Fixing WiFi on OS X by Tweaking the MTU'
+  - url: 'https://serverless.zone/my-accidental-3-5x-speed-increase-of-aws-lambda-functions-6d95351197f3'
+    description: 'My accidental 3.5x speed increase of AWS Lambda functions'
+  - url: 'https://medium.com/@raupach/choosing-the-right-amount-of-memory-for-your-aws-lambda-function-99615ddf75dd'
+    description: 'Choosing the right amount of memory for your AWS Lambda function'
