@@ -3,6 +3,8 @@ title: "Setting default service version for Azure Blob Storage"
 categories: ["paperclip", "azure"]
 ---
 
+
+
 If you are sharing plain text files with url pointing directly to Azure Blob Storage you will notice that the browser will try to display file content instead of downloading it. 
 
 This is because of two things:
