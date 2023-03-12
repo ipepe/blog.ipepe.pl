@@ -15,3 +15,6 @@ If You have multiple projects then I recommend configuring this in global bundle
 bundle config set --global build.pg --with-cflags=-Wno-error=implicit-function-declaration
 ```
 
+Or you can add this config to `.bash_profile`:
+`export RUBY_CFLAGS="-Wno-error=implicit-function-declaration"`
+
