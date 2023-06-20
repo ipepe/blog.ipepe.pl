@@ -34,5 +34,3 @@ NGROK will quickly provide you with a unique URL that maps directly to your loca
 The magic of NGROK lies in its simplicity. You can now share this URL with anyone, giving them access to your application as if it were hosted on a public server. Plus, NGROK provides an elegant interface at `http://localhost:4040` where you can inspect all HTTP traffic for your tunnels.
 
 In conclusion, **NGROK** offers an incredibly straightforward and effective solution to bridge the gap between local development and public accessibility. This elevates your overall development process, making it more streamlined and interactive.
-
-Happy coding! 🚀
