@@ -3,8 +3,6 @@ title: "How to Permanently Hide a Volume in Windows using Diskpart and Registry"
 categories: ["windows", "diskpart"]
 ---
 
-# How to Permanently Hide a Volume in Windows
-
 Are you looking to tidy up your workspace by hiding volumes in Windows that you don't often use? While Windows provides a temporary solution, you may notice the hidden volume reappearing after a restart. Luckily, there's a way to hide these volumes permanently.
 
 Before we start, remember that making changes to your system can have significant effects, especially when using the **DiskPart** utility or editing the **Windows Registry**. Always back up your data and double-check all steps.
