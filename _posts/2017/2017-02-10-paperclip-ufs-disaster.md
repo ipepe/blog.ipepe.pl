@@ -1,44 +1,31 @@
+Title: "Optimizing File Storage in Ruby on Rails: Overcoming Limits with Paperclip + UFS"
+
+Categories: ["ruby", "ruby-on-rails", "file-storage", "paperclip"]
+
 ---
-title: "Paperclip + UFS = Disaster"
-categories: ["ruby","ruby-on-rails","file-storage", "paperclip"]
----
 
-Today I stumbled upon very intersting file storage problem in Ruby on Rails application: filesystem told us "Input/output error" when trying to upload attachment by user. Bear in mind that my attachments are availble by nfs wchich share is hosted on FreeBSD. So I googled for "file limit of UFS" and didn't get anything. So I asked on my favorite ##techsupport IRC. And sure enough I got and anwser by `@PipeItToDevNull` (thanks!) who gave me this link:
-<http://www.tek-tips.com/viewthread.cfm?qid=1484502>
+Introduction:
+Today, while working on my Ruby on Rails application, I encountered an interesting file storage problem. The filesystem returned an "Input/output error" when attempting to upload a user attachment. It's important to note that my attachments are accessible via NFS, with the share hosted on FreeBSD. After searching for information on the "file limit of UFS," I couldn't find any relevant results. Frustrated, I turned to my trusted ##techsupport IRC channel for help. Fortunately, a user named `@PipeItToDevNull` provided a valuable answer, directing me to this link: [link](http://www.tek-tips.com/viewthread.cfm?qid=1484502).
 
-Quote:
-```
-The maximum number of directories allowed in the Solaris[TM] Operating
-Environment is limited by the LINK_MAX parameter.
+Explanation:
+According to the information I found, the maximum number of directories allowed in the Solaris[TM] Operating Environment is determined by the LINK_MAX parameter. This parameter is defined as 32767 in the `/usr/include/limits.h` header file and cannot be changed. Since each directory, even an empty one, already contains 2 links (to itself '.' and to the parent '..'), the total available number of directories goes down to 32765. In general, it would be challenging to exceed the total number of directories on a filesystem unless attempting to create more than 32765 subdirectories within a single directory.
 
-This parameter is defined as 32767 in the /usr/include/limits.h
-header file and it cannot be changed.
+Overcoming the Limit:
+Realizing that I had hit this limit, I needed to come up with a new structure for my files. To solve this problem, I sought assistance from a co-worker, and together we devised a new path structure: `/storage/:id_divided_by_1000000/:id_divided_by_1000/:id_modulo_1000/file.extension`. This structure allows me to handle up to 32k*1kk (32 billion) files, which is more than sufficient for this project. It's worth noting that this solution works specifically for integer-based IDs.
 
-Since each directory (even an empty one) already contains 2 links
-(to itself '.', and to the parent '..'), the total available goes
-down to 32765.  In general, you would be hard pressed to exceed the
-total number of directories you can have on a filesystem unless you are
-trying to create more than 32765 sub-dirs. in any single directory.
-```
-
-
-And that is enough for me. I hit the limit, so I had to came up with new structure for files.
-
-But how I got into this situation in the first place? Well, my project
-is ruby on rails based and I use paperclip gem to handle attachments.
-And today was a day when my users created 32765th attachment in my
-application.
-
-To solve this problem I asked my co-worker for help. And with his help
-we came up with this path structure:
-`/storage/:id_divided_by_1000000/:id_divided_by_1000/:id_modulo_1000/file.extension`
-
-This way I will be able to handle 32k*1kk files which is sufficient for
-this project. Of course I have to migrate old files and this will only
-work for integer based id's.
+Implementation:
+To implement this new structure with Paperclip, I added the following code:
 
 ```ruby
 Paperclip.interpolates :id_divided_by_1000000 do |attachment, style|
   (attachment.instance.id / 1_000_000).to_i
 end
 ```
+
+By utilizing this interpolation, I can divide the ID by 1,000,000 to obtain the first part of the path, divide it by 1,000 to get the second part, and calculate the modulo 1000 to determine the third part. This approach ensures a well-organized file structure while avoiding the limitations imposed by the UFS filesystem.
+
+Migration:
+In order to implement this new structure, I will need to migrate the existing files to match the new path format. This step is crucial for seamless integration and efficient management of the file storage system.
+
+Conclusion:
+Encountering the file storage limit in my Ruby on Rails application led me to explore alternative approaches to handle attachments efficiently. By combining the power of Paperclip and the new path structure, I can overcome the UFS limitations and ensure the successful management of a large number of attachments.
