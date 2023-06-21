@@ -1,7 +1,6 @@
-Title: "Optimizing File Storage in Ruby on Rails: Overcoming Limits with Paperclip + UFS"
-
-Categories: ["ruby", "ruby-on-rails", "file-storage", "paperclip"]
-
+---
+title: "Flat file structure in Paperclip + UFS = Disaster"
+categories: ["ruby","ruby-on-rails","file-storage", "paperclip"]
 ---
 
 Introduction:
