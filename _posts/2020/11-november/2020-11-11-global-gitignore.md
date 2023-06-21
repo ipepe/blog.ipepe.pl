@@ -4,60 +4,93 @@ categories: programming
 author: Tony Pujals (github.com/subfuzion)
 ---
 
-There are certain files created by particular editors, IDEs, operating systems, etc., that do not belong in a repository. But adding system-specific files to the repo's `.gitignore` is considered a poor practice. This file should only exclude files and directories that are a part of the package that should not be versioned (such as the `node_modules` directory) as well as files that are generated (and regenerated) as artifacts of a build process.
+Introduction:
 
-All other files should be in your own global gitignore file. Create a file called `.gitignore` in your home directory and add anything you want to ignore. You then need to tell git where your global gitignore file is.
+When working with version control systems like Git, it's important to exclude certain files that don't belong in a repository, such as editor-specific files, IDE configurations, or system-generated artifacts. While it's discouraged to clutter the repository's `.gitignore` file with system-specific entries, there is a better approach: using a global gitignore file. In this blog post, we'll explore how to set up and leverage a global gitignore file for improved version control efficiency.
 
-#### Mac
-    git config --global core.excludesfile ~/.gitignore
+Setting Up a Global Gitignore File:
 
-#### Windows
-    git config --global core.excludesfile %USERPROFILE%\.gitignore
+To start, create a file called `.gitignore` in your home directory and add any files or directories you want Git to ignore. Next, you need to inform Git about your global gitignore file's location. The process differs slightly depending on your operating system.
 
-This will result in an entry in your .gitconfig that looks like this:
+#### Mac:
 
-    [core]
-        excludesfile = {path-to-home-dir}/.gitignore
+Open your terminal and run the following command:
 
-## Global .gitignore contents
+```
+git config --global core.excludesfile ~/.gitignore
+```
 
-Depending on your OS and tools, the following contains sample of what you might want to include. When you run `git status` before adding any files to your local repo, check to see if any files don't belong. Add them to your global gitignore as appropriate.
+This command updates your `.gitconfig` file to include the following entry:
+
+```
+[core]
+    excludesfile = {path-to-home-dir}/.gitignore
+```
+
+#### Windows:
+
+Open your command prompt or Git Bash and execute the following command:
+
+```
+git config --global core.excludesfile %USERPROFILE%\.gitignore
+```
+
+This command adds the following entry to your `.gitconfig` file:
+
+```
+[core]
+    excludesfile = {path-to-home-dir}/.gitignore
+```
+
+Customizing Your Global .gitignore:
+
+The contents of your global gitignore file should reflect files and directories that you want to exclude from version control. Here's an example that covers common scenarios:
 
 ```
 # Node
 npm-debug.log
 
-# Mac
+# macOS
 .DS_Store
 
 # Windows
 Thumbs.db
 
-# WebStorm
+# JetBrains IDEs
 .idea/
 
-# vi
+# Vim
 *~
 
 # General
 log/
 *.log
 
-# etc...
+# And more...
 ```
 
-## WebStorm
+Remember to review the files that don't belong in your local repository by running `git status` before adding them. If any files should be globally ignored, add them to your global gitignore file accordingly.
 
-If you use WebStorm, you will also need to copy your global gitignore contents to its Ignored Files dialog.
+Integrating with WebStorm:
 
-#### Mac
-WebStorm | Preferences | Version Control | Ignored Files
+If you use WebStorm as your IDE, you'll also need to copy the contents of your global gitignore file to its Ignored Files dialog. Here's how you can access it:
 
-#### Windows
-File | Settings | Version Control | Ignored Files
+#### Mac:
 
-## Alternatives
-According to <https://stackoverflow.com/a/22885996>, you can just edit `~/.config/git/ignore`
+Go to WebStorm > Preferences > Version Control > Ignored Files.
 
-## Sources
- * <https://gist.github.com/subfuzion/db7f57fff2fb6998a16c>
+#### Windows:
+
+Navigate to File > Settings > Version Control > Ignored Files.
+
+Alternatives:
+
+Alternatively, instead of creating a `.gitignore` file in your home directory, you can edit the `~/.config/git/ignore` file directly. This approach can provide the same outcome.
+
+Conclusion:
+
+By utilizing a global gitignore file, you can keep your repository's `.gitignore` clean and focused while ensuring that system-specific and generated files are excluded from version control. This approach promotes efficient collaboration and helps maintain a tidy version-controlled project.
+
+Sources:
+- [Tony Pujals' Gist](https://gist.github.com/subfuzion/db7f57fff2fb6998a16c)
+- [Stack Overflow Answer](https://stackoverflow.com/a/22885996)
