@@ -1,6 +1,7 @@
 ---
 title: "Boost Your Efficiency as a Developer with These 3 Mac OS Hacks"
 categories: ["macos", "devops"]
+---
 
 Introduction:
 Being a developer on Mac OS can be enhanced by leveraging scripts, commands, and settings that optimize your workflow and boost your productivity. In this blog post, we will explore three valuable Mac OS hacks that can significantly improve your efficiency as a developer.
