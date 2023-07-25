@@ -1,6 +1,7 @@
 ---
-title: Building a Powerful Crawler using Javascrit in the Cloud
-categories: programming, web scraping
+title: "Building a Powerful Crawler using Javascrit in the Cloud"
+categories: ["programming", "webscraping"]
+---
 
 Introduction:
 Web crawling and data extraction from websites are essential tasks in today's data-driven world. JavaScript cloud crawlers offer a convenient and scalable solution for efficiently collecting and processing data from the web. In this blog post, we will explore an example of a JavaScript cloud crawler using the popular GSM Arena website.
