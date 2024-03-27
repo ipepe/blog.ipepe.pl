@@ -7,6 +7,8 @@ I was looking for a list of truffleruby versions and their respective compatibil
 
 | TruffleRuby version | MRI version |
 |---------------------|-------------|
+| 23.1.0              | 3.2.2       |
+| 23.0.0              | 3.1.3       |
 | 22.0.0.2            | 3.0.2       |
 | 21.3.0              | 2.7.3       |
 | 20.2.0              | 2.6.6       |
